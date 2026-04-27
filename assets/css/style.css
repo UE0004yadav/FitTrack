@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #1f1e1e;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    min-height: 100vh;
+    background: url('../images/your-image.jpg') no-repeat center center/cover;
+    background: linear-gradient(to right, rgba(0,0,0,0.9) 40%, rgba(0,0,0,0) 70%),
+    url('../images/hero-section-img.jpg');
+     background-size: cover;
+     background-position: center;
+}
+
+.expert-trainers .container {
+  max-width: 1100px;  /* ya 1000px / 900px try karo */
+}
+
+
+.custom-card {
+  background: #0b0b0b;
+  padding: 30px 20px;
+  border-radius: 15px;
+  color: #fff;
+  height: 100%;
+  transition: 0.3s ease;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(255,0,0,0.3);
+  box-shadow: 0 10px 30px rgba(255,0,0,0.1);
+}
+
+.icon-box {
+  width: 50px;
+  height: 50px;
+  background: rgba(255,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.icon-box i {
+  color: rgb(253, 251, 251);
+  font-size: 20px;
+}
+
+.custom-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.custom-card p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.trainer-card {
+  height: 70vh; /* 🔥 70% screen height */
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  transition: 0.4s ease;
+}
+
+/* Dark overlay */
+.trainer-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0.2));
+}
+
+/* Text overlay */
+.overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 2;
+}
+
+.overlay h4 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* Hover effect */
+.trainer-card:hover {
+  transform: scale(1.03);
+}
+
+/*button styles */
+ .custom-btn {
+  background-color: #f70808;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 18px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect (OUTWARD) */
+.custom-btn:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.5);
+}
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.custom-btn:hover .arrow-icon {
+  transform: translateX(6px);
+}
+/* Footer Styles */
+.footer-section {
+  background: #302f2f;
+  line-height: 1.8;
+}
+i{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+}
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.footer-link:hover {
+  color: red;
+  padding-left: 5px;
+}
+
+.footer-section h6 {
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 16px;
+}
+
+/* plans page */
+.plan-card {
+  transition: 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(255,0,0,0.2);
+}
+
