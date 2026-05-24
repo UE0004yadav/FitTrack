@@ -23,7 +23,7 @@
   </div>
 </section>
 
-/* Membership Plans Section */
+<!--Membership Plans Section -->
 <section class="pricing-section py-5">
   <h1 style="color: white; text-align: center; padding-bottom:10px"> Monthly Membership Plans </h1>
   <div class="container px-lg-5">
@@ -104,7 +104,7 @@
     </div>
   </div>
 </section>
-/* Yearly Membership Plans Section */
+<!-- Yearly Membership Plans Section -->
 <section class="pricing-section py-5">
   <h1 style="color: white; text-align: center; padding-bottom:10px"> Quarterly Memberships </h1>
   <div class="container px-lg-5">
@@ -163,7 +163,7 @@
   </div>
 </section>
 
-/* Yearly Membership Plans Section */
+<!-- Yearly Membership Plans Section -->
 <section class="pricing-section py-5">
   <h1 style="color: white; text-align: center; padding-bottom:10px"> Annual Memberships </h1>
   <div class="container px-lg-5">
@@ -221,7 +221,7 @@
     </div>
   </div>
 </section>
-/*Support Section */
+<!--Support Section -->
 <section class="py-5 text-center text-white" style="background:#0f0f0f;">
   <div class="container">
     <h1 class="display-1 fw-bolder">Have Questions?</h1>

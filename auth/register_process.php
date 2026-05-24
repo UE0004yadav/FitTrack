@@ -1,16 +1,26 @@
 <?php
-include("../config/db.php");
+
+$conn = require("../config/db.php");
 
 $name = $_POST['name'];
 $email = $_POST['email'];
-$password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-$sql = "INSERT INTO users (name, email, password) 
-        VALUES ('$name', '$email', '$password')";
+$password = password_hash(
+    $_POST['password'],
+    PASSWORD_DEFAULT
+);
+
+$sql = "INSERT INTO users(name, email, password)
+VALUES('$name', '$email', '$password')";
 
 if(mysqli_query($conn, $sql)){
+
     echo "Registration Successful";
-} else {
-    echo "Error";
+
+}else{
+
+    echo mysqli_error($conn);
+
 }
+
 ?>

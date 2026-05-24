@@ -1,16 +1,57 @@
+/* ===== RESET ===== */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
+/* ===== BODY ===== */
 body {
-    background-color: #1f1e1e;
+    background-color: #080808;
   font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3 {
   font-family: 'Poppins', sans-serif;
+}
+
+/* ===== NAVBAR FIX ===== */
+.custom-navbar {
+  background-color: #000000;   /* solid black */
+  z-index: 9999;
+  border-bottom: 1px solid rgb(53, 52, 52);
+}
+.logo-text{
+  font-size: medium;
+  font-weight: bold;
+}
+.nav-link{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-size: small;
+ transition: 0.3s ease;
+ color: #ccc; 
+}
+.nav-link:hover{
+  color: #fff;
+   
+}
+.login-btn{
+  background-color: #000000;
+  border-radius: 8px;
+  padding: 5px 20px;
+}
+
+.register-btn {
+  background-color: #f70808;
+  border-radius: 8px;
+  color: rgb(235, 231, 231);
+  padding: 5px 20px;
+}
+
+.register-btn:hover {
+  background-color: #ff4d4d; 
+  color: white;
 }
 
 .hero-section{
@@ -140,7 +181,7 @@ h1, h2, h3 {
 }
 /* Footer Styles */
 .footer-section {
-  background: #302f2f;
+  background: #1a1a1a;
   line-height: 1.8;
 }
 i{
@@ -148,25 +189,26 @@ i{
     background-color: red;
     padding: 10px;
     border-radius: 10px;
+    font-size: 14px;
 }
 .footer-link {
   color: #aaa;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 12px;
   transition: 0.3s;
 }
 
 .footer-link:hover {
-  color: red;
-  padding-left: 5px;
+  color: rgb(238, 228, 228);
 }
 
 .footer-section h6 {
   margin-bottom: 15px;
+  font-size: 14px;
 }
 
 .footer-section p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* plans page */
@@ -179,3 +221,319 @@ i{
   box-shadow: 0 10px 25px rgba(255,0,0,0.2);
 }
 
+/*User Dashboard */
+.user-dashboard-heading{
+  font-family: poppins, sans-serif;
+  padding: 50px 0px 0px 60px;
+  line-height: 1.0;
+}
+
+.user-dashboard-heading h1{
+  font-size: 35px;
+  font-weight: 800;
+  color: #fff;
+  
+}
+.user-dashboard-heading p{
+  font-size: 16px;
+  color: #aaa;
+}
+.user-dashboard {
+      padding: 60px;
+      background-color: #0a0a0a;
+
+    }
+
+    .dashboard-layout {
+      gap: 20px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      color: white;
+    }
+
+    .right-section {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .card {
+      background: #111;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    .profile-details {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .profile-details .icon {
+      font-size: 30px;
+      color: #cc0505;
+      background-color: #421e1e;
+      border-radius: 70px;
+      margin-left: 20px;
+    }
+
+    .profile-details .username h1 {
+      font-size: 25px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      margin: 15px;
+      margin-bottom: 3px;
+    }
+
+    .profile-details .username p {
+      font-size: 14px;
+      font-family: 'Poppins', sans-serif;
+      color: #b3b1b1;
+    }
+
+    .contact-details {
+      display: flex;
+      gap: 25%;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    .contact-details .email p,
+    .contact-details .phone p {
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+      color: #b3b1b1;
+      margin-bottom: 3px;
+    }
+
+    .profile-card {
+      border: 1px solid #444444;
+      border-radius: 10px;
+      background-color: #1d1c1c;
+    }
+
+    .membership-card {
+      border: 1px solid #444444;
+      border-radius: 10px;
+      background-color: #b80303;
+      color: #fff8f8;
+    }
+
+    .membership-card-details {
+      padding: 20px;
+      color: #fafafa;
+
+    }
+
+    .membership-card-details .active-membership-text h1 {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      color: #fafafa;
+      margin-bottom: 25px;
+    }
+ .membership-card-details .membership-type  {
+      font-size: 30px;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      color: #fafafa;
+      margin-bottom: 20px;
+    }
+    .membership-card-details .calender{
+      display: flex;
+      gap: 40%;
+      margin-bottom: 20px;
+      font-size: 12px;
+      color: #b3b1b1;
+    }
+    .membership-card-details .calender .calender-icon {
+      font-size: 14px;
+      color: #b3b1b1;
+      margin-right: 5px;
+      background-color: #b80303;
+    }
+    .membership-card-details .calender .start-date p,
+    .membership-card-details .calender .expiry-date p {
+      font-size: 12px;
+      font-family: 'Poppins', sans-serif;
+      color: #b3b1b1;
+      margin-bottom: 3px;
+    } 
+    .membership-card-details .calender .start-date .time-period,
+    .membership-card-details .calender .expiry-date .time-period {
+       font-size: 14px;
+      color: #ffffff;
+      font-weight: 600;
+    }
+    
+    .membership-card-details .remains-days {
+    background-color: #b42121; 
+    border-radius: 10px; 
+    font-size: 12px;
+      color: #b3b1b1;
+      padding: 10px;
+    }
+    .membership-card-details .remains-days i  {
+      background-color: #b42121;
+      color: #ffffff ;
+      font-size: 18px;
+      font-weight: 800;
+      
+      
+    }
+    .membership-card-details .remains-days p  {
+      font-weight: bolder;
+      color: #ffffff ;
+      font-size: 14px;
+    }
+    .membership-card-details .remains-days h2  {
+      font-weight: bolder;
+      color: #ffffff ;
+      font-size: 1.5rem;
+      margin-left: 30px;
+    }
+     .payment-card {
+      border: 1px solid #444444;
+      border-radius: 10px;
+      background-color: #1d1c1c;
+    }
+
+    .payment-card .payment-history {
+      margin: 30px;
+    }
+
+    .payment-card .payment-table {
+      margin: 30px;
+      ;
+    }
+
+    .payment-card .payment-history i {
+      background-color: #1d1c1c;
+      color: red;
+      font-size: 20px;
+    }
+
+    .payment-card .payment-history span {
+      color: white;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .payment-table th {
+      color: #969494;
+    }
+
+    .payment-table tr {
+      margin: 40px;
+      padding: 50px;
+    }
+
+    .payment-table .plan {
+      color: #969494;
+    }
+
+
+    .upcoming-class-card {
+      color: white;
+      border: 1px solid #444444;
+      border-radius: 10px;
+      background-color: #1d1c1c;
+    }
+
+    .upcoming-class-heading h1 {
+      font-size: 18px;
+      padding: 25px;
+      font-weight: 600;
+    }
+
+    .cards {
+
+      background-color: #1d1c1c;
+      border-radius: 10px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 0px;
+      padding-bottom: 10px;
+    }
+
+    .card {
+      color: white;
+      border: 1px solid #444444;
+      background-color: #000000;
+      margin: 6px 15px;
+      line-height: 0.5;
+      padding-bottom: 5px;
+    }
+
+    .card:hover {
+      border: 1px solid #8d1212;
+    }
+
+    .card h6 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+
+    }
+
+    .card p {
+      font-size: 12px;
+      color: #747272;
+    }
+
+    .quick-action-card {
+      color: white;
+      border: 1px solid #444444;
+      border-radius: 10px;
+      background-color: #1d1c1c;
+    }
+
+    .quick-action-card h6 {
+      font-size: 18px;
+      color: #fffdfd;
+      padding: 30px 10px 0px 25px;
+      font-weight: 600;
+    }
+
+    .quick-action-card .button-container {
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 0px;
+    }
+
+    .quick-action-card .button-container .btn {
+      border: none;
+      padding: 15px;
+      font-size: 14px;
+      font-weight: 600;
+      border: 1px solid #817e7e;
+    }
+
+    .quick-action-card .button-container .btn:hover {
+      opacity: 0.7;
+      transition: 0.3s;
+    }
+
+    .quick-action-card .button-container .book-btn,
+    .quick-action-card .button-container .update-btn {
+      background-color: #444444;
+      color: #ffffff;
+    }
+
+    .quick-action-card .button-container .renew-btn {
+      background-color: #f70505;
+      color: white;
+    }
+    
+
+           

@@ -11,10 +11,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  
 </head>
 
 <body class="body-dark">
- <?php include 'includes/header.php'; ?>
+  <?php include 'includes/header.php'; ?>
   <section class="hero-section d-flex align-items-center h-100 ">
     <div class="container">
       <div class="row ">
@@ -45,7 +46,7 @@
         <div class="col-md-6 col-lg-3">
           <div class="custom-card">
             <div class="icon-box">
-              <i class="fa-solid fa-bolt" ></i>
+              <i class="fa-solid fa-bolt"></i>
             </div>
             <h5>High-Intensity Training</h5>
             <p>Push your limits with our expert-led HIIT sessions designed for maximum results.</p>
@@ -89,51 +90,51 @@
     </div>
   </section>
   <section class="expert-trainers py-5" style="background-color: #271e1e;">
-  <div class="container px-0 py-5 text-center">
+    <div class="container px-0 py-5 text-center">
 
-    <!-- Heading -->
-    <h2 class="section-title text-white mb-2">Expert Trainers</h2>
-    <p class="text-secondary mb-5">
-      Meet our professional trainers who will guide your fitness journey
-    </p>
+      <!-- Heading -->
+      <h2 class="section-title text-white mb-2">Expert Trainers</h2>
+      <p class="text-secondary mb-5">
+        Meet our professional trainers who will guide your fitness journey
+      </p>
 
-    <!-- Cards -->
-    <div class="row justify-content-center g-4">
+      <!-- Cards -->
+      <div class="row justify-content-center g-4">
 
-      <!-- Trainer 1 -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="trainer-card" style="background-image: url('assets/images/abs.jpg');">
-          <div class="overlay">
-            <h4>Rahul Sharma</h4>
-            <p style="color: white;"><span style="color: #e60404;">Certified Strength Coach</span> <br> 10+ years experience </p>
-            
+        <!-- Trainer 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="trainer-card" style="background-image: url('assets/images/abs.jpg');">
+            <div class="overlay">
+              <h4>Rahul Sharma</h4>
+              <p style="color: white;"><span style="color: #e60404;">Certified Strength Coach</span> <br> 10+ years experience </p>
+
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Trainer 2 -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="trainer-card" style="background-image: url('assets/images/bi-ceps.jpg');">
-          <div class="overlay">
-            <h4>Priya Verma</h4>
-             <p style="color: white;"><span style="color: #e60404;">Yoga and flexibility</span> <br> 8 years experience </p>
+        <!-- Trainer 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="trainer-card" style="background-image: url('assets/images/bi-ceps.jpg');">
+            <div class="overlay">
+              <h4>Priya Verma</h4>
+              <p style="color: white;"><span style="color: #e60404;">Yoga and flexibility</span> <br> 8 years experience </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Trainer 3 -->
-      <div class="col-12 col-md-6 col-lg-4">
-        <div class="trainer-card" style="background-image: url('assets/images/trainer-girl.jpg');">
-          <div class="overlay">
-            <h4>Sarah Chen</h4>
-             <p style="color: white;"><span style="color: #e60404;">CrossFit & HIIT </span> <br> 10 years experience </p>
+        <!-- Trainer 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="trainer-card" style="background-image: url('assets/images/trainer-girl.jpg');">
+            <div class="overlay">
+              <h4>Sarah Chen</h4>
+              <p style="color: white;"><span style="color: #e60404;">CrossFit & HIIT </span> <br> 10 years experience </p>
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
-  </div>
-</section>
+  </section>
   <!-- member benefits -->
   <section class="member-benefits py-5 h-100" style="background-color: #302c2c;">
     <div class="container text-center">
@@ -181,9 +182,9 @@
         Choose a plan that fits your goals and begin your transformation today.
       </p>
       <a href="#" class="btn custom-btn d-inline-flex align-items-center justify-content-center">
-  View Membership Plans
-  <i class="fa-solid fa-arrow-right ms-2 arrow-icon"></i>
-</a>
+        View Membership Plans
+        <i class="fa-solid fa-arrow-right ms-2 arrow-icon"></i>
+      </a>
     </div>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

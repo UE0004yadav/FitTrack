@@ -4,7 +4,7 @@
 
       <!-- Brand Info -->
       <div class="col-md-4 mb-4">
-        <h4 class="fw-bold">
+        <h4 class="fw-bold fs-6">
           <i class="fa-solid fa-dumbbell me-2 "></i> FitTrack
         </h4>
         <p class="text-secondary">
