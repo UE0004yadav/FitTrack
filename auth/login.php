@@ -290,7 +290,7 @@
                                 <i class="fa-solid fa-envelope"></i>
 
                                 <input type="email" name="email"
-                                    placeholder="your.email@example.com">
+                                    placeholder="your.email@example.com" required>
                             </div>
                         </div>
 
@@ -301,7 +301,7 @@
                                 <i class="fa-solid fa-lock"></i>
 
                                 <input type="password" name="password"
-                                    placeholder="Enter your password">
+                                    placeholder="Enter your password" required>
                             </div>
                         </div>
 
